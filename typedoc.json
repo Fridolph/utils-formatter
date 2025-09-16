@@ -1,0 +1,20 @@
+{
+  "entryPoints": ["src/main.ts"],
+  "out": "./docs/apis",
+  "theme": "markdown",
+  "includeVersion": true,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "readme": "none",
+  "hideGenerator": true,
+  "tsconfig": "tsconfig.json",
+  "plugin": ["typedoc-plugin-markdown"],
+  "disableSources": true,
+  "exclude": [
+    "**/__tests__/**/*",
+    "**/*.d.ts",
+    "src/index.ts",
+    "src/utils.ts"
+  ]
+}
